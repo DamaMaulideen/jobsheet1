@@ -40,6 +40,7 @@ print("tugas 2.elif\n")
 
 print("Berapakah Umur Anda Saat Ini?\n")
 umur = int(input("Umur Saya : "))
+#use boolean is not effective
 status = bool()
 
 if umur >= 18:
