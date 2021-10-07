@@ -45,6 +45,8 @@ status = bool()
 if umur >= 18:
     print("Apakah Anda Sudah Terdaftar?\n1. Sudah\n2. Belum\n")
     status = int(input("Status Saya : "))
+    #if you use this condition, every number except 1 would be the else condition
+    #its not effective
     if status == True:
         print("Anda Berhak Memilih\n")
     else:
